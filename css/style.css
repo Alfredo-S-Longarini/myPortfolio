@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 24px;
+
+  font-family: "Kanit", sans-serif;
+}
+
+.containerPage {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("/public/img/backgroundImg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.containerCard {
+  width: 400px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+
+  padding: 0 10px;
+
+  
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 30px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.1px);
+  -webkit-backdrop-filter: blur(12.1px);
+}
+
+.profilePic {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.profilePic h1 {
+  font-size: 32px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.profilePic img {
+  width: 60%;
+  border-radius: 100%;
+}
+
+.containerLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.listLinks {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: start;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 5px;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+
+  color: white;
+}
+
+.linkedInButton {
+  background-color: #0e76a8;
+  border: 2px solid #0c6994;
+}
+
+.linkedInButton:hover {
+  background-color: #1085bb;
+}
+
+.correoButton {
+  background-color: #a80e0e;
+  border: 2px solid #860b0b;
+}
+
+.correoButton:hover {
+  background-color: #c41111;
+}
+
+.gitHubButton {
+  background-color: #171515;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.gitHubButton:hover {
+  background-color: #272424;
+}
+
+.igButton {
+  background: rgb(64, 93, 230);
+  background: linear-gradient(
+    94deg,
+    rgba(64, 93, 230, 1) 6%,
+    rgba(91, 81, 216, 1) 16%,
+    rgba(131, 58, 180, 1) 21%,
+    rgba(193, 53, 132, 1) 30%,
+    rgba(225, 48, 108, 1) 38%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(245, 96, 64, 1) 65%,
+    rgba(252, 175, 69, 1) 75%,
+    rgba(255, 220, 128, 1) 84%
+  );
+}
+
+.igButton:hover {
+  background: rgb(69, 99, 249);
+  background: linear-gradient(
+    94deg,
+    rgb(68, 97, 243) 6%,
+    rgb(96, 86, 231) 16%,
+    rgb(150, 67, 206) 21%,
+    rgb(209, 58, 143) 30%,
+    rgb(240, 50, 113) 38%,
+    rgb(255, 29, 29) 50%,
+    rgb(255, 102, 67) 65%,
+    rgb(255, 179, 72) 75%,
+    rgb(255, 220, 131) 84%
+  );
+}
+
+.cvButton {
+  background-color: rgb(0, 0, 0);
+}
+
+.cvButton:hover {
+  background-color: rgb(23, 23, 23);
+}
